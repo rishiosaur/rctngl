@@ -1,0 +1,85 @@
+:root{
+    --red-light: #ff8a80;
+    --red-semi-light: #ff5252;
+    --red-semi-dark: #ff1744;
+    --red-dark: #d50000;
+
+    --pink-light:#ff80ab;
+    --pink-semi-light:#ff4081;
+    --pink-semi-dark:#f50057;
+    --pink-dark:#c51162;
+
+    --purple-light:#ea80fc;
+    --purple-semi-light:#e040fb;
+    --purple-semi-darK:#d500f9;
+    --purple-dark:#aa00ff;
+
+    --deep-purple-light:#b388ff;
+    --deep-purple-semi-light:#7c4dff;
+    --deep-purple-semi-dark:#651fff;
+    --deep-purple-dark:#6200ea;
+
+    --indigo-light:#8c9eff;
+    --indigo-semi-light:#536dfe;
+    --indigo-semi-dark:#3d5afe;
+    --indigo-dark:#304ffe;
+
+    --blue-light:#82b1ff;
+    --blue-semi-light:#448aff;
+    --blue-semi-dark:#2979ff;
+    --blue-dark:#2962ff;
+
+    --light-blue-light:#80d8ff;
+    --light-blue-semi-light:#40c4ff;
+    --light-blue-semi-dark:#00b0ff;
+    --light-blue-dark:#0091ea;
+
+    --cyan-light:#84ffff;
+    --cyan-semi-light:#18ffff;
+    --cyan-semi-dark:#00e5ff;
+    --cyan-dark:#00b8d4;
+
+    --teal-light:#a7ffeb;
+    --teal-semi-light:#64ffda;
+    --teal-semi-dark:#1de9b6;
+    --teal-dark:#00bfa5;
+
+    --green-light:#b9f6ca;
+    --green-semi-light:#69f0ae;
+    --green-semi-dark:#00e676;
+    --green-dark:#00c853;
+
+    --light-green-light:#ccff90;
+    --light-green-semi-light:#b2ff59;
+    --light-green-semi-dark:#76ff03;
+    --light-green-dark:#64dd17;
+    
+    --lime-light:#f4ff81;
+    --lime-semi-light:#eeff41;
+    --lime-semi-dark:#c6ff00;
+    --lime-dark:#aeea00;
+
+    --yellow-light:#ffff8d;
+    --yellow-semi-light:#ffff00;
+    --yellow-semi-dark:#ffea00;
+    --yellow-dark:#ffd600;
+    
+    --amber-light:#ffe57f;
+    --amber-semi-light:#ffd740;
+    --amber-semi-dark:#ffc400;
+    --amber-dark:#ffab00;
+    
+    --orange-light:#ffd180;
+    --orange-semi-light:#ffab40;
+    --orange-semi-dark:#ff9100;
+    --orange-dark:#ff6d00;
+    
+    --deep-orange-light:#ff9e80;
+    --deep-orange-semi-light:#ff6e40;
+    --deep-orange-semi-dark:#ff3d00;
+    --deep-orange-dark:#dd2c00;
+
+    --anim-length-1: .15s;
+    --anim-length-2: .3s;
+    --anim-length-3: .45s;
+}

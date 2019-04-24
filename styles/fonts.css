@@ -1,0 +1,131 @@
+/*
+Font:
+
+Invoking letter: "f"
+
+Commands:
+    f - Family: Changes the font family
+        Arguments:
+            Style: String, sans-serif|serif|modern|monospace, What style the text should be.
+
+        Modifiers: N/A
+    
+    w - Weight: Changes the Font Weight
+        Arguments:
+            Weight: Integer, 1|2|3|4|5|6|7|8|9, The weight of the font.
+    
+    s - Style: The Decoration of the text, like italics or bold and things of that nature.
+        Arguments:
+            Type: String, 
+    
+Format: f-{commands}-{argument}-{modifiers}
+*/
+
+.f-f-sans-serif{ font-family:  }
+.f-f-serif{ font-family: }
+
+
+.f-w-1 { font-weight: 100 }
+.f-w-2 { font-weight: 200 }
+.f-w-3 { font-weight: 300 }
+.f-w-4 { font-weight: 400 }
+.f-w-5 { font-weight: 500 }
+.f-w-6 { font-weight: 600 }
+.f-w-7 { font-weight: 700 }
+.f-w-8 { font-weight: 800 }
+.f-w-9 { font-weight: 900 }
+
+
+.f-s-b { font-weight: bold }
+.f-s-i { font-style: italic }
+.f-s-u { text-decoration: underline }
+.f-s-s { text-decoration: line-through }
+.f-s-o { text-decoration: overline }
+.f-s-d { text-decoration: overline underline }
+
+.f-dt-wavy { text-decoration-style: wavy }
+.f-dt-solid { text-decoration-style: solid }
+.f-dt-double { text-decoration-style: double }
+.f-dt-dotted { text-decoration-style: dotted }
+.f-dt-dashed { text-decoration-style: dashed }
+.f-dt-initial { text-decoration-style: initial }
+
+.f-dc-red-l { text-decoration-color: var(--red-light) }
+.f-dc-red-sl { text-decoration-color: var(--red-semi-light) }
+.f-dc-red-sd { text-decoration-color: var(--red-semi-dark) }
+.f-dc-red-d { text-decoration-color: var(--red-dark) }
+
+.f-dc-pink-l { text-decoration-color: var(--pink-light) }
+.f-dc-pink-sl { text-decoration-color: var(--pink-semi-light) }
+.f-dc-pink-sd { text-decoration-color: var(--pink-semi-dark) }
+.f-dc-pink-d { text-decoration-color: var(--pink-dark) }
+
+.f-dc-purple-l { text-decoration-color: var(--purple-light) }
+.f-dc-purple-sl { text-decoration-color: var(--purple-semi-light) }
+.f-dc-purple-sd { text-decoration-color: var(--purple-semi-dark) }
+.f-dc-purple-d { text-decoration-color: var(--purple-dark) }
+
+.f-dc-deep-purple-l { text-decoration-color: var(--deep-purple-light) }
+.f-dc-deep-purple-sl { text-decoration-color: var(--deep-purple-semi-light) }
+.f-dc-deep-purple-sd { text-decoration-color: var(--deep-purple-semi-dark) }
+.f-dc-deep-purple-d { text-decoration-color: var(--deep-purple-dark) }
+
+.f-dc-indigo-l { text-decoration-color: var(--indigo-light) }
+.f-dc-indigo-sl { text-decoration-color: var(--indigo-semi-light) }
+.f-dc-indigo-sd { text-decoration-color: var(--indigo-semi-dark) }
+.f-dc-indigo-d { text-decoration-color: var(--indigo-dark) }
+
+.f-dc-blue-l { text-decoration-color: var(--blue-light) }
+.f-dc-blue-sl { text-decoration-color: var(--blue-semi-light) }
+.f-dc-blue-sd { text-decoration-color: var(--blue-semi-dark) }
+.f-dc-blue-d { text-decoration-color: var(--blue-dark) }
+
+.f-dc-light-blue-l { text-decoration-color: var(--light-blue-light) }
+.f-dc-light-blue-sl { text-decoration-color: var(--light-blue-semi-light) }
+.f-dc-light-blue-sd { text-decoration-color: var(--light-blue-semi-dark) }
+.f-dc-light-blue-d { text-decoration-color: var(--light-blue-dark) }
+
+.f-dc-cyan-l { text-decoration-color: var(--cyan-light) }
+.f-dc-cyan-sl { text-decoration-color: var(--cyan-semi-light) }
+.f-dc-cyan-sd { text-decoration-color: var(--cyan-semi-dark) }
+.f-dc-cyan-d { text-decoration-color: var(--cyan-dark) }
+
+.f-dc-teal-l { text-decoration-color: var(--teal-light) }
+.f-dc-teal-sl { text-decoration-color: var(--teal-semi-light) }
+.f-dc-teal-sd { text-decoration-color: var(--teal-semi-dark) }
+.f-dc-teal-d { text-decoration-color: var(--teal-dark) }
+
+.f-dc-green-l { text-decoration-color: var(--green-light) }
+.f-dc-green-sl { text-decoration-color: var(--green-semi-light) }
+.f-dc-green-sd { text-decoration-color: var(--green-semi-dark) }
+.f-dc-green-d { text-decoration-color: var(--green-dark) }
+
+.f-dc-light-green-l { text-decoration-color: var(--light-green-light) }
+.f-dc-light-green-sl { text-decoration-color: var(--light-green-semi-light) }
+.f-dc-light-green-sd { text-decoration-color: var(--light-green-semi-dark) }
+.f-dc-light-green-d { text-decoration-color: var(--light-green-dark) }
+
+.f-dc-lime-l { text-decoration-color: var(--lime-light) }
+.f-dc-lime-sl { text-decoration-color: var(--lime-semi-light) }
+.f-dc-lime-sd { text-decoration-color: var(--lime-semi-dark) }
+.f-dc-lime-d { text-decoration-color: var(--lime-dark) }
+
+.f-dc-yellow-l { text-decoration-color: var(--yellow-light) }
+.f-dc-yellow-sl { text-decoration-color: var(--yellow-semi-light) }
+.f-dc-yellow-sd { text-decoration-color: var(--yellow-semi-dark) }
+.f-dc-yellow-d { text-decoration-color: var(--yellow-dark) }
+
+.f-dc-amber-l { text-decoration-color: var(--amber-light) }
+.f-dc-amber-sl { text-decoration-color: var(--amber-semi-light) }
+.f-dc-amber-sd { text-decoration-color: var(--amber-semi-dark) }
+.f-dc-amber-d { text-decoration-color: var(--amber-dark) }
+
+.f-dc-orange-l { text-decoration-color: var(--orange-light) }
+.f-dc-orange-sl { text-decoration-color: var(--orange-semi-light) }
+.f-dc-orange-sd { text-decoration-color: var(--orange-semi-dark) }
+.f-dc-orange-d { text-decoration-color: var(--orange-dark) }
+
+.f-dc-deep-orange-l { text-decoration-color: var(--deep-orange-light) }
+.f-dc-deep-orange-sl { text-decoration-color: var(--deep-orange-semi-light) }
+.f-dc-deep-orange-sd { text-decoration-color: var(--deep-orange-semi-dark) }
+.f-dc-deep-orange-d { text-decoration-color: var(--deep-orange-dark) }

@@ -1,0 +1,7 @@
+.a-fg-1 { transition: color var(--anim-length-1) ease-in;}
+.a-fg-2 { transition: color var(--anim-length-2) ease-in;}
+.a-fg-3 { transition: color var(--anim-length-3) ease-in;}
+
+.a-bg-1 { transition: background-color var(--anim-length-1) ease-in;}
+.a-bg-2 { transition: background-color var(--anim-length-2) ease-in;}
+.a-bg-3 { transition: background-color var(--anim-length-3) ease-in;}
