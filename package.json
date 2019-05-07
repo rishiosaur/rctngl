@@ -1,0 +1,24 @@
+{
+  "name": "rctngl",
+  "version": "0.0.1",
+  "description": "A Functional CSS Library for humans.",
+  "main": "rctngl.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishiosaur/rctngl.git"
+  },
+  "keywords": [
+    "css",
+    "style",
+    "minimal"
+  ],
+  "author": "Rishi Kothari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rishiosaur/rctngl/issues"
+  },
+  "homepage": "https://github.com/rishiosaur/rctngl#readme"
+}

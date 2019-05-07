@@ -79,7 +79,24 @@
     --deep-orange-semi-dark:#ff3d00;
     --deep-orange-dark:#dd2c00;
 
+
     --anim-length-1: .15s;
     --anim-length-2: .3s;
     --anim-length-3: .45s;
+
+
+    --length-1: .3rem;
+    --length-2: .6rem;
+    --length-3: 1rem;
+    --length-4: 1.5rem;
+    --length-5: 2rem;
+    --length-6: 4rem;
+    --length-7: 8rem;
+    --length-8: 12rem;
+    --length-9: 16rem;
+
+    --border-radius-1: .125rem;
+    --border-radius-2: .3rem;
+    --border-radius-3: 1rem;
+    --border-radius-full: 100%;
 }

@@ -21,8 +21,8 @@ Commands:
 Format: f-{commands}-{argument}-{modifiers}
 */
 
-.f-f-sans-serif{ font-family:  }
-.f-f-serif{ font-family: }
+.f-f-sans-serif{ font-family: var(--font-sans-serif) }
+.f-f-serif{ font-family: var(--font-serif) }
 
 
 .f-w-1 { font-weight: 100 }
@@ -42,13 +42,25 @@ Format: f-{commands}-{argument}-{modifiers}
 .f-s-s { text-decoration: line-through }
 .f-s-o { text-decoration: overline }
 .f-s-d { text-decoration: overline underline }
+.f-s-n { text-decoration: none }
 
-.f-dt-wavy { text-decoration-style: wavy }
-.f-dt-solid { text-decoration-style: solid }
-.f-dt-double { text-decoration-style: double }
-.f-dt-dotted { text-decoration-style: dotted }
-.f-dt-dashed { text-decoration-style: dashed }
+.f-dt-w { text-decoration-style: wavy }
+.f-dt-s { text-decoration-style: solid }
+.f-dt-dbl { text-decoration-style: double }
+.f-dt-dot { text-decoration-style: dotted }
+.f-dt-dash { text-decoration-style: dashed }
 .f-dt-initial { text-decoration-style: initial }
+
+
+.f-a-l { text-align: left }
+.f-a-r { text-align: right }
+.f-a-c { text-align: center }
+
+
+.f-t-c { text-transform: capitalize }
+.f-t-l { text-transform: lowercase }
+
+
 
 .f-dc-red-l { text-decoration-color: var(--red-light) }
 .f-dc-red-sl { text-decoration-color: var(--red-semi-light) }
